@@ -1,0 +1,8 @@
+{:paths ["src"]
+ :deps
+ {org.clojure/clojure {:mvn/version "1.9.0"}
+  org.clojure/tools.deps.alpha {:mvn/version "0.4.295"}}
+ :aliases
+ {:boot {:extra-deps {boot/core   {:mvn/version "2.7.2"}
+                      boot/base   {:mvn/version "2.7.2"}
+                      boot/aether {:mvn/version "2.7.2"}}}}}
